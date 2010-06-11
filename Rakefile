@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rspec_twicks"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Rspec twicks}
+    gem.description = %Q{little tools to make rspec simpler.}
     gem.email = "kazu.dev@gmail.com"
     gem.homepage = "http://github.com/ktlacaelel/rspec_twicks"
     gem.authors = ["kazuyoshi tlacaelel"]
