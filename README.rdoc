@@ -4,6 +4,35 @@ Rspec twicks
 
 Little tools to make rspec simpler.
 
+Collection of little rspec twicks
+
+== Examples:
+
+Instead of doing this:
+
+    it "should do this" do
+      # ...
+    end
+
+Do this!
+
+    should 'do this' do
+      # ...
+    end
+
+== Usage
+
+Require libs
+
+    require 'rubygems'
+    require 'rspec_twicks'
+
+And load with rspec
+
+
+    config.include(RspecTwicks)
+
+
 == Note on Patches/Pull Requests
 
 * Fork the project.
