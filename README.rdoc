@@ -2,7 +2,7 @@
 
 Rspec twicks
 
-Little tools to make rspec simpler.
+Little tools and twicks to make rspec more handy.
 
 Collection of little rspec twicks
 
