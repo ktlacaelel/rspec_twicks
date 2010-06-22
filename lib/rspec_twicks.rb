@@ -13,7 +13,7 @@ module RspecTwicks
     end
 
     def fetch(desc, &block)
-      it('should fetch' + desc, &block)
+      it('fetch ' + desc, &block)
     end
 
   end
