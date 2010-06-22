@@ -12,6 +12,10 @@ module RspecTwicks
       it('should ' + desc, &block)
     end
 
+    def fetch(desc, &block)
+      it('should fetch' + desc, &block)
+    end
+
   end
 
   module ClassMethods
