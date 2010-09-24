@@ -16,7 +16,7 @@ module RspecTwicks
       it('fetch ' + desc, &block)
     end
 
-    def when(desc, &block)
+    def wen(desc, &block)
       it('when ' + desc, &block)
     end
 
