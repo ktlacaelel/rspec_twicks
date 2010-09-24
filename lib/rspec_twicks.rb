@@ -16,6 +16,10 @@ module RspecTwicks
       it('fetch ' + desc, &block)
     end
 
+    def when(desc, &block)
+      it('when ' + desc, &block)
+    end
+
   end
 
   module ClassMethods
