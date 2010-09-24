@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rspec_twicks}
-  s.version = "1.0.0"
+  s.version = "1.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["kazuyoshi tlacaelel"]
-  s.date = %q{2010-06-11}
-  s.description = %q{little tools to make rspec simpler.}
+  s.date = %q{2010-09-24}
+  s.description = %q{Little tools and twicks to make rspec more handy.}
   s.email = %q{kazu.dev@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
